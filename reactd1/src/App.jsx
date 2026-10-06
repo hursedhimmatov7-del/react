@@ -1,9 +1,12 @@
-import React from 'react'
 
-export default function App() {
+import Card from "./components/component"
+
+const App = () => {
   return (
     <div>
-      <h1>salom</h1>
+      <Card/>
     </div>
   )
 }
+
+export default App
